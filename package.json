@@ -1,6 +1,6 @@
 {
   "name": "sql-easy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Promise syntax sugar for mysql.js. Simple grammar rules and await async are also available.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaosais.git"
+    "url": "git@github.com:xiaoSais/sql-easy.git"
   },
   "keywords": [
     "promise",
@@ -19,9 +19,9 @@
   "author": "xiaosais",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xiaosais/issues"
+    "url": "https://github.com/xiaoSais/sql-easy/issues"
   },
-  "homepage": "https://github.com/xiaosais",
+  "homepage": "https://github.com/xiaoSais/sql-easy",
   "dependencies": {
     "mysql": "^2.16.0"
   }
