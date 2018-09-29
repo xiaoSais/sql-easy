@@ -84,7 +84,6 @@ Query data with conditions in some fields
 ``` 
 Query data of other tables
 ```
-  
   sl.query({
     table: 'othertable'
   }).then(res = {}).catch(err => {});
@@ -113,7 +112,6 @@ Update data with conditions in some fields
 #### Delete
 Delete some lines with conditions
 ```
-  
   sl.delete({
     conditions: `id>10 && name='kitty' || title='订阅号'`
   }).then(res => {}).catch(err => {})
@@ -143,7 +141,6 @@ Update one line data
 ```
 Insert more line data
 ```
-  
   {
     data: [
       ['kitty', '52', '网红爆款', '20140212'],
